@@ -1,0 +1,10 @@
+{
+  "name": "SimpleCloud-Displayname",
+  "author": "D151l",
+  "mainClass": "me.d151l.module.displayname.DisplaynameModule",
+  "moduleCopyType": "NONE",
+  "repositories": [],
+  "dependencies": [],
+  "depend": [],
+  "softDepend": []
+}
