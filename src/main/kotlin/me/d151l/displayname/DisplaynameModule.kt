@@ -30,7 +30,7 @@ class DisplaynameModule: ICloudModule {
 
     fun checkAndUpdateService(service: ICloudService) {
         val displaynameEntriesByName = this.displaynameConfig.services.filter { it.target == service.getName() }
-        val displaynameEntriesByGroupName = this.displaynameConfig.services.filter { it.target == service.getGroupName() }
+        val displaynameEntriesByGroupName = this.displaynameConfig.groups.filter { it.target == service.getGroupName() }
 
         if (!displaynameEntriesByGroupName.isEmpty()) {
             val displaynameEntry = displaynameEntriesByGroupName[0]
